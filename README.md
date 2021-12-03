@@ -16,7 +16,7 @@ arm64位和arm32位系统
     （1）创建crontab文件，命令：`crontab -e`
     （2）添加定时任务，在crontab末尾加入命令：`* * * * * /usr/node/crash_monitor.sh`
 3.  运行甜糖安装脚本
-    （1）命令：`apt update;apt install -y git;git clone https://gitee.com/zhang0510/ttnode-arm.git;chmod 777 ./ttnode-arm/tt_run.sh;./ttnode-arm/tt_run.sh;`
+    （1）命令：`apt update;apt install -y git;git clone https://github.com/HolmesLiu/ttnode.git;chmod 777 ./ttnode-arm/tt_run.sh;./ttnode-arm/tt_run.sh;`
 
 
 
